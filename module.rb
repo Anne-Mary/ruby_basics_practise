@@ -17,6 +17,5 @@ module TopLevel
 	end
 end
 
-x = TopLevel.new
-
-puts x.output
+x = TopLevel::BluePrint1.new
+x.blue_print_stuff
